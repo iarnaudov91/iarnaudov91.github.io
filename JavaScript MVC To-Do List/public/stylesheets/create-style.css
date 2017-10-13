@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+
+}
+
+#create-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #4472C4;
+    background-image: url("cork.png");
+    background-size: cover;
+}
+
+input[type=text]{
+    padding: 5px;
+    width: calc(100% - 56px);
+    margin: 10px 0;
+    outline: none;
+    background-color: #f8ff78;
+}
+label {
+    width: 40px;
+    color: black;
+    background-color: #ebbf55;
+    font-weight: bold;
+    padding:5px 10px;
+    text-shadow: 1px 1px 1px gray;
+    text-decoration: underline;
+    border:transparent;
+    border-radius: 10px;
+}
+.create {
+    text-align: center;
+
+}
+.create article {
+    padding: 30px;
+    width: 20%;
+    display: inline-block;
+    margin-top:100px;
+}
+.row {
+    text-align: left;
+}
+textarea {
+    display: block;
+    margin: 10px auto;
+    resize: none;
+    height: 45px;
+    width: calc(100% - 5px);
+    outline: none;
+    background-color: #f8ff78;
+}
+
+.create button {
+    background-color: #ebbf55;
+    margin: 10px;
+    box-shadow: 0 0 15px #4B4B4B;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 900;
+    outline: none;
+    cursor: pointer;
+}
