@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Ivelin`s Webspace</title>
     <link rel="shortcut icon" type="image/png" href="img/Social/fav.ico"/>
     <link rel="stylesheet" href="css/style.css">
@@ -19,7 +21,7 @@
 <div class="main">
     <div id="tabs" class="popup">
         <ul class="menu">
-            <li><a href="#tabs-1" id="active" title="" class="hvr-buzz-out ">ABOUT ME</a></li>
+            <li><a href="#tabs-1" id="active" title="" class="hvr-buzz-out" style="white-space:nowrap">ABOUT ME</a></li>
             <li><a href="#tabs-2" title="" class="hvr-buzz-out ">PROJECTS</a></li>
             <li><a href="#tabs-3" title="" class="hvr-buzz-out ">PHOTOGRAPHY</a></li>
             <li><a href="#tabs-4" title="" class="hvr-buzz-out ">CONTACT</a></li>
@@ -28,16 +30,22 @@
         <div id="tabs_container">
             <div id="tabs-1">
                 <div class="content">
+                    <div class="profile">
+                        <img src="img/profile.jpg" class="hvr-grow" alt="">
+                        <h1>Ivelin Arnaudov</h1>
+                        <h2>Software Developer</h2>
+                    </div>
                     <div class="skillsheading"><h3> TECHNICAL SKILLS</h3></div>
                     <ul class="skills">
+                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; C# .NET, ASP.NET MVC</li>
+                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; MS SQL, Entity Framework ORM, MongoDB</li>
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; HTML5, CSS3, Bootstrap, JS Libraries</li>
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; JavaScript, Node.js, Express.js, React.js, AngularJS</li>
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; RESTful Web Services, AJAX</li>
-                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; C# .NET, ASP.NET MVC</li>
-                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; MS SQL, Entity Framework ORM, MongoDB</li>
+                       
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Data Structures & Algorithms, OOP, Design Patterns
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Source Control Systems - Git, GitHub</li>
-                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Photoshop</li>
+                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Photoshop, paint.NET, GIMP</li>
                     </ul>
                     <div class="skillsheading"><h3>SOFT SKILLS</h3></div>
                     <ul class="skills">
@@ -49,13 +57,9 @@
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Perfect Organizational and Time Management Skills</li>
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Result-oriented professional</li>
                         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Self-Motivated</li>
-                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Willingness to learn, grow and develop my skills</li>
+                        <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp; Willingness to learn and develop my skills</li>
                     </ul>
-                    <div class="profile">
-                        <img src="img/profile.jpg" class="hvr-grow" alt="">
-                        <h1>Ivelin Arnaudov</h1>
-                        <h2>Software Developer</h2>
-                    </div>
+
                 </div>
             </div>
             <div id="tabs-2">
@@ -66,7 +70,7 @@
                             <span><a
                                     href="https://github.com/iarnaudov91/iarnaudov91.github.io/tree/master/C%23%20KanBan%20Board"
                                     target="_blank" class="links  hvr-wobble-horizontal"> Kanban Board Task Manager.</a> C# ASP.NET MVC Framework application.
-                            Build on: JavaScript, HTML, CSS, Razor view engine, Entity Framework ORM, MS SQL Server. You can track your progress on any project tasks.  Create, Update status, Edit, Delete functionality</span>
+                            Build on: JavaScript, HTML, CSS, Razor view engine, Entity Framework ORM, MS SQL Server. You can track your progress on any project tasks.  Create, Update status, Edit, Delete functionality.</span>
                         </div>
                     </li>
                     <li class="project">
@@ -79,7 +83,7 @@
                     <li class="project">
                         <div class="text" style="position:relative; top:-30px;">
                             <img src="img/Projects/amelia.png" class="thumbnail"/>
-                            <span> <a href="#" target="_blank" class="links   hvr-wobble-horizontal">Amelia Tech Website.</a> Fully Responsive and mobile friendly website. Used technologies: HTML, CSS, Bootstap, JavaScript, jQuery</span>
+                            <span> <a href="#" target="_blank" class="links   hvr-wobble-horizontal">Amelia Tech Website.</a> Fully Responsive and mobile friendly website. Used technologies: HTML, CSS, Bootstap, JavaScript, jQuery.</span>
                         </div>
                     </li>
                     <li class="project">
@@ -117,7 +121,7 @@
                         <p>&nbsp;<i class="fa fa-map-marker"></i>&nbsp; Sofia, Bulgaria</p>
                         <p><i class="fa fa-phone-square"></i> &nbsp;+359879698696</p>
                         <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; iarnaudov91@gmail.com</p>
-                        <p><i class="fa fa-link"></i> &nbsp;iarnaudov91.github.io/webdev</p>
+                        <p><i class="fa fa-link"></i> &nbsp;iarnaudov91.github.io/dev</p>
 
                     </div>
                     <div class="righter">
@@ -152,6 +156,7 @@
 
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+
 
 </body>
 </html>
