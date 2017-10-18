@@ -580,7 +580,9 @@ span.lower {
     color: #03101e;
 }
 }
-@media only screen and (max-width: 660px) {
+
+
+@media only screen and (min-width: 481px) and (max-width: 660px) {
 body {
         margin:0;
         padding:0;
@@ -796,4 +798,225 @@ span.lower {
     font-size:17px;
     color: #03101e;
 }
+}
 
+@media only screen and (max-width: 480px) {
+body {
+        margin:0;
+        padding:0;
+         background: #140812;
+    }
+    #particles-js {
+        display: none;
+    }
+
+    div.main {
+        width: 100%;
+        display:block;
+        margin-bottom: 20px;
+    }
+    .profile img {
+    display: block;
+        width: 50%;
+        margin:20px auto;
+        border-radius: 20px;
+    }
+
+
+    ul.menu  {
+        width: 50%;
+        margin:15px auto;
+        padding: 0;
+        border-radius: 20px;
+        text-align: center;
+        list-style: none;
+         background: #140812;
+    }
+    #tabs ul.menu li {
+       margin:5px;
+        background: linear-gradient(to bottom, rgba(147,141,147,1) 0%,rgba(15,15,15,1) 50%);
+        border-radius: 20px;
+    }
+   #tabs ul.menu li a {
+        text-decoration:none;
+       color: #cacaca;
+        outline: none;
+        margin:0;
+        padding: 10px 30px;
+    }
+    #tabs ul.menu li a:hover {
+        background: linear-gradient(to bottom, rgba(147, 141, 147, 1) 0%, rgba(89, 24, 77, 1) 50%);
+        width: 70%;
+        outline:none;
+        border-radius: 20px;
+    }
+    #tabs ul.menu li a:focus {
+        background: linear-gradient(to bottom, rgba(147, 141, 147, 1) 0%, rgba(89, 24, 77, 1) 50%);
+        outline:none;
+        width: 70%;
+        border-radius: 20px;
+    }
+    #tabs_container {
+        margin:0 15px;
+    }
+    div.content {
+        padding:20px;
+    }
+    #tabs-1 {
+        background-color: #b7bfcc;
+        border-radius: 20px;
+    }
+    #tabs-1 .profile {
+        margin-top:20px;
+        text-align: center;
+    }
+
+    ul.skills {
+        list-style: none;
+        padding-left: 10px;
+           margin:0 auto;
+    }
+    div.skillsheading{
+       margin:0 auto;
+    background: linear-gradient(to bottom, rgba(147, 141, 147, 1) 0%, rgb(35, 9, 29) 50%);
+    border:transparent;
+    border-radius: 10px;
+    width:70%;
+    color: #e6e6e6;
+    text-align: center;
+    }
+    #tabs-1 .fa-check-square {
+        color: #1c0526 !important;
+    }
+
+/*TABS-2*/
+    #tabs-2 {
+        background-color: #140812;
+        border-radius: 20px;
+        color:white;
+    }
+
+#tabs-2 img {
+
+    width: 200px;
+    height: 100px;
+}
+#tabs-2 .text {
+text-align: center;
+padding:20px 0;
+}
+    #tabs-2 span {
+        display: inline-block;
+    }
+#tabs-2 ul {
+    list-style: none;
+    padding-top:20px;
+}
+    #tabs-2 ul li{
+  margin-bottom: 10px;
+}
+#tabs-2 ul li a{
+  color:#e0e043;
+  text-decoration: none;
+}
+#tabs-2 ul li a:hover{
+  color:#0dbbbf;
+  text-decoration: none;
+}
+
+/*TABS-3*/
+    #tabs-3 {
+        border-radius: 20px;
+        background-color:#140812;
+    }
+    #tabs-3 img {
+        width: 22%;
+        border-radius: 15px;
+        margin-left:5px;
+    }
+    #tabs-3 .imageGallery1 {
+        margin:0 auto;
+    }
+    
+/*    TABS-4 */
+    
+    #tabs-4 {
+        border-radius: 20px;
+        background-color:#b7bfcc;
+    }
+    #tabs-4 .lefter {
+          width: 95%;
+        margin-left:14%;
+ 
+    }
+    #tabs-4 .righter {
+         width: 95%;
+         margin-left:10%;
+    }
+    #tabs-4 .righter ul li {
+        display: block;
+        margin-top:20px;
+    }
+    #tabs-4 .righter ul li a {
+        text-decoration: none;
+    }
+    #tabs-4 .righter img {
+        vertical-align: top;
+        width: 40px;
+    }
+.righter ul img {
+float:left;
+}
+
+span.higher {
+    display: block;
+    font-weight:bold;
+    font-size:18px;
+    color: #2a2a2a;
+    margin-left: 48px;
+}
+
+span.lower {
+    text-decoration: none;
+    color: #072c4b;
+    margin-left: 10px;
+    font-size:15px;
+}
+.righter li:hover {
+    background-color: #b5aeb9;
+}
+
+.righter li a {
+    text-decoration: none;
+}
+
+.righter li a span.lower:hover {
+   color: #4d91b7;
+}
+
+.social {
+    width:40px;
+}
+
+.fa {
+    font-size:18px !important;
+    color:royalblue;
+}
+#tabs-4 .lefter h3 {
+    color: #280028;
+    font-size:35px;
+    text-shadow: 1px 1px 1px black;
+    margin:2px;
+}
+#tabs-4 .lefter h4 {
+    margin:10px 0 20px;
+    color: #27173e;
+    font-size:30px;
+    text-shadow: 1px 1px 1px #76637e;
+}
+#tabs-4 p {
+    font-weight:bold;
+    font-size:17px;
+    color: #03101e;
+}
+}
