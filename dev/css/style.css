@@ -906,7 +906,7 @@ text-align: center;
 padding:20px 0;
 }
     #tabs-2 span {
-        display: inline-block;
+        text-align: justify;
     }
 #tabs-2 ul {
     list-style: none;
@@ -946,12 +946,12 @@ padding:20px 0;
     }
     #tabs-4 .lefter {
           width: 95%;
-        margin-left:14%;
+        margin-left:5%;
  
     }
     #tabs-4 .righter {
          width: 95%;
-         margin-left:10%;
+    
     }
     #tabs-4 .righter ul li {
         display: block;
@@ -1018,5 +1018,8 @@ span.lower {
     font-weight:bold;
     font-size:17px;
     color: #03101e;
+}
+ #tabs-4 div.content {
+    padding:5px;
 }
 }
