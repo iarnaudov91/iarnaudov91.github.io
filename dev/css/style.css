@@ -4,6 +4,15 @@ ul.menu {
 .profile, .lefter {
     font-family: 'Patua One', cursive;
 }
+.fa {
+    font-size:22px !important;
+    color:#1f3bad;
+}
+.skillsheading {
+    font-family: 'Russo One';
+    font-size:14px;
+    color:#d8cee5 !important;
+}
 /*MEDIA BIG*/
 @media only screen and (min-width: 1301px) {
 
@@ -290,10 +299,6 @@ span.lower {
     width:40px;
 }
 
-.fa {
-    font-size:18px !important;
-    color:royalblue;
-}
 #tabs-4 .lefter h3 {
     color: #280028;
     font-size:35px;
@@ -564,10 +569,7 @@ span.lower {
     width:40px;
 }
 
-.fa {
-    font-size:18px !important;
-    color:royalblue;
-}
+
 #tabs-4 .lefter h3 {
     color: #280028;
     font-size:35px;
@@ -783,10 +785,7 @@ span.lower {
     width:40px;
 }
 
-.fa {
-    font-size:18px !important;
-    color:royalblue;
-}
+
 #tabs-4 .lefter h3 {
     color: #280028;
     font-size:35px;
@@ -1004,10 +1003,7 @@ span.lower {
     width:40px;
 }
 
-.fa {
-    font-size:18px !important;
-    color:royalblue;
-}
+
 #tabs-4 .lefter h3 {
     color: #280028;
     font-size:35px;
