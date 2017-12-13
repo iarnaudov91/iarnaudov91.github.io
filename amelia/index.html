@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/user.css">
     <link rel="stylesheet" href="assets/css/media.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
-
 <body>
     <nav class="navbar navbar-default navigation">
         <div id="nav">
@@ -37,7 +36,7 @@
         </div>
     </nav>
     <div class="header-img-container">
-        <div class="header-inner-text">
+        <div class="header-inner-text animated zoomIn">
             <span>Why Are The Leading Companies</span>
             <h1>Choosing Amelia?</h1>
             <hr>
@@ -52,7 +51,7 @@
             <hr class="header">
         </div>
         <div class="what_pictures row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 animated bounceInLeft">
                 <div class="who_column">
                     <img src="img/dedicated-team.jpg" class="img-responsive" />
                     <h2><a href="">Dedicated Offshore IT</a> </h2>
@@ -61,7 +60,7 @@
                     <a class="button" role="button" href="#">Learn more</a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 animated bounceInRight">
                 <div class="who_column">
                     <img src="img/on-demand-team.jpg" class="img-responsive" />
                     <h2><a href="">On-Demand Outsource IT</a> </h2>
@@ -106,7 +105,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-sm-6 ">
 				<div id="ios" class="content-custom" style="min-height: 0px; max-height: none; height: 168px;">
 					<h3><i class="fa fa-apple"></i><a href="#"> iOS Development</a></h3>
 					<p class="short">iPhone and iPad apps we have developed have been download over 1 million times. We're hoping to repeat this success with watchOS.</p>
@@ -217,6 +216,27 @@
                 } else {
                     $('#nav').removeClass('shrink');
                 }
+                if ($(document).scrollTop() > 600) {
+                    $('.what_pictures').addClass('animated pulse');
+                } else {
+                    $('.what_pictures').removeClass('animated pulse');
+                }
+                if ($(document).scrollTop() > 400) {
+                    $('.what').addClass('animated slideInLeft');
+                } else {
+                    $('.what').removeClass('animated slideInLeft');
+                }
+                if ($(document).scrollTop() > 1500) {
+                    $('.work_with').addClass('animated pulse');
+                } else {
+                    $('.work_with').removeClass('animated pulse');
+                }
+                if ($(document).scrollTop() > 2000) {
+                    $('.technologies_we_work').addClass('animated tada');
+                } else {
+                    $('.technologies_we_work').removeClass('animated tada');
+                }
+
             });
         });
     </script>
