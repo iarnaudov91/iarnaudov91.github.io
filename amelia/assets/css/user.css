@@ -1,0 +1,332 @@
+#nav {
+    height: 100px;
+    background: rgb(248, 245, 245);
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+}
+
+#navcol-1 {
+    color: #fff;
+    font-size: 18px;
+    transition: all ease .5s;
+}
+
+#nav.shrink {
+    height: 60px;
+    transition: all ease .5s;
+    background-color: white;
+    opacity: 0.9;
+}
+
+#nav.shrink img {
+    margin-top: 0;
+    transition: all ease .5s;
+}
+
+#nav.shrink #ulcol {
+    margin-top: 10px;
+    transition: all ease .5s;
+}
+
+* {
+    margin: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.header-img-container {
+    background: url("../../img/header-building.jpg") no-repeat center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.header-inner-text {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px black;
+    height: auto;
+    margin-top: 150px;
+}
+
+.header-inner-text h1 {
+    font-size: 7rem;
+}
+
+.header-inner-text span {
+    font-size: 5rem;
+}
+
+.header-inner-text hr {
+    background-color: #106783;
+    border: 0 none;
+    color: #0f6986;
+    height: 2px;
+    width: 10%;
+    margin: 40px auto;
+}
+
+.header-inner-text button {
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px black;
+    background-color: #1d9bb9;
+    border: transparent;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+img.logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.navigation {
+    height: 100px;
+    margin: 0;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 25px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+#navcol-1>ul>li>a {
+    color: #3b3b3b;
+    font-size: 18px;
+}
+
+#navcol-1>ul>li>a:focus {
+    color: rgb(51, 150, 253);
+}
+#navcol-1>ul>li:hover {
+    color: rgb(51, 150, 253);
+    background: red;
+}
+
+
+/*underline menu effect*/
+
+.nav.navbar-nav>li>a:hover {
+    color: rgb(51, 150, 253);
+    padding: 15px;
+    border: blue;
+    background-color: rgb(248, 245, 245);
+    font-size: 18px;
+}
+
+.nav.navbar-nav>li>a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #3296fd;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+}
+
+.nav.navbar-nav>li>a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+/*HEADER*/
+
+div.header>img {
+    filter: brightness(60%);
+    min-height: 600px;
+}
+
+.header_text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+div.header_text span {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 40px;
+}
+
+div.header_text h1 {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 60px;
+}
+
+div.header_text button {
+    background-color: #2aabd2;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    border: transparent;
+}
+
+
+/*WHAT_WE_D0*/
+
+.what {
+    margin: 100px 100px 50px;
+}
+
+.what p {
+    margin: 30px 200px;
+    font-size: 20px;
+}
+
+.what_we_do .what_pictures {
+    margin: 0 50px;
+    background-color: white;
+}
+
+.who_column {
+    padding: 25px;
+}
+
+.who_column h2 {
+    padding: 10px;
+}
+
+.who_column p {
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.who_column .button {
+    margin-top: 25px;
+    background-color: #2aabd2;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 25px;
+    border: transparent;
+}
+
+
+/*WORK WITH*/
+
+.work_with {
+    margin-top: 50px;
+    background: url("../../img/conference.jpg") no-repeat center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.work_with_inner_text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    text-shadow: 5px 5px 5px black;
+    height: auto;
+    margin-top: 50px;
+}
+
+.work_with_inner_text h1 {
+    margin-bottom: 50px;
+    font-size: 55px;
+}
+
+.work_with_inner_text p {
+    margin: 10px 100px;
+    font-size: 20px;
+}
+
+.work_with_inner_text ul {
+    margin-top: 50px;
+    padding-left: 150px;
+}
+
+.work_with_inner_text ul li {
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    list-style: none;
+}
+
+/*technologies we weork*/
+
+.technologies_we_work {
+  padding:50px;
+  width: 100%;
+  margin:0 auto;
+}
+
+
+.technologies_we_work h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.technologies_we_work .fa {
+  font-size: 34px;
+  color: #264749;
+}
+
+.technologies_we_work div.col-md-4 p {
+width: 350px;
+
+}
+
+
+#copy-right {
+  text-align: center;
+  background: #383636;
+  color:white;
+  font-size: 12px;
+}
+
+.footer {
+background: url("../../img/map.jpg") no-repeat center;
+background-size: cover;
+height:35%;
+position: relative;
+}
+
+#connect {
+  color:white;
+  margin-left:200px;
+}
+#connect ul {
+  list-style: none;
+}
+#connect ul li a {
+  color:#e3e4e5;
+}
+#connect .fa {
+  font-size: 20px;
+  color:#64bfdb;
+margin-right: 5px;
+margin-bottom: 7px;
+}
+#findUs {
+    color:white;
+}
+#findUs .address p {
+  color:#e3e4e5;
+  margin-bottom: 5px;
+}
