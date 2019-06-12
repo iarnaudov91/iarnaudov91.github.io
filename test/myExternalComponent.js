@@ -1,6 +1,6 @@
-class App extends React.Component {
+class RenderIvo extends React.Component {
     state = {
-        name: 'Ryu',
+        name: 'Ivo brqqq',
         age: 30
     }
     handleChange = (e) => {
@@ -24,4 +24,3 @@ class App extends React.Component {
         )
     }
 }
-ReactDOM.render(<App />, document.getElementById('app'));
