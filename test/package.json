@@ -1,29 +1,28 @@
 {
-  "name": "react-app",
+  "name": "testme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
     "react": "^16.8.6",
-    "react-app-polyfill": "^1.0.1",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "typescript-collections-generic": "^1.0.5"
   },
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.1",
-    "css-loader": "^3.0.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^0.23.1",
-    "typescript": "^3.5.1",
-    "webpack": "^4.33.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "run-sequence": "^2.2.1"
   }
 }

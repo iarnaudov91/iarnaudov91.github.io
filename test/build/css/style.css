@@ -1,0 +1,14 @@
+h2 {
+  width: 50px; }
+  h2 p {
+    display: block; }
+
+#mainHeading {
+  color: white; }
+  #mainHeading h1 {
+    background-attachment: fixed; }
+  #mainHeading p {
+    color: blue; }
+  #mainHeading #macro {
+    widows: 5px;
+    width: 2px; }

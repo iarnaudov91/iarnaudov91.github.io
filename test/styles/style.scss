@@ -1,0 +1,18 @@
+@import 'second';
+
+#mainHeading {
+    color: white;
+
+    h1 {
+        background-attachment: fixed;
+    }
+
+    p {
+        color: blue;
+    }
+
+    #macro {
+        widows: 5px;
+        width: 2px;
+    }
+}

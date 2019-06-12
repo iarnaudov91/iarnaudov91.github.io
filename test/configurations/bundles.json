@@ -1,0 +1,11 @@
+{
+    "jsBundles": [
+        "./src/app.ts",
+        "./src/person.ts",
+        "./src/FirstComponent.tsx"
+    ],
+    "cssBundles": [
+        "styles/style.scss",
+        "styles/rabeta.scss"
+    ]
+}
