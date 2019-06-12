@@ -1,0 +1,14 @@
+{
+    "jsBundles": {
+        "firstComponent": "./src/components/firstComponent/FirstComponent.tsx",
+        "secondComponent": "./src/components/secondComponent/FirstComponent.tsx"
+    },
+    "cssBundles": {
+        "wizardFormCss": "./styles/wizard.scss",
+        "resultplanCss": "./styles/resultplan.scss"
+    },
+    "htmlBundles": {
+        "wizard": "./html/wizard.html",
+        "resultplan": "./html/resultplan.html"
+    }
+}
