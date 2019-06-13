@@ -1,0 +1,14 @@
+{
+    "jsBundles": {
+        "wizard": "./src/wizard/wizard.ts",
+        "resultplan": "./src/resultplan/resultplan.ts"
+    },
+    "cssBundles": {
+        "wizardFormCss": "./styles/wizard.scss",
+        "resultplanCss": "./styles/resultplan.scss"
+    },
+    "htmlBundles": {
+        "wizard": "./html/wizard.html",
+        "resultplan": "./html/resultplan.html"
+    }
+}
